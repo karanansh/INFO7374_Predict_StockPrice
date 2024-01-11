@@ -30,3 +30,20 @@ Local Setup
     ```bash
     make download
     ```
+
+HOW TO MAKE PYTHON ENV:
+
+python3 -m venv .env
+source .env/bin/activate
+
+INSTALL REQUIREMENTS FILE:
+
+pip install -r requirements.txt
+
+TURN ON DOCKER COMPOSE(ML FLOW):
+
+docker compose up
+
+MAKE DOWNLOAD:
+
+make download
